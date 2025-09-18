@@ -1,0 +1,54 @@
+.modal-edit-product {
+    max-width: 550px;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-edit-product h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-edit-product input[type="text"],
+  .modal-edit-product input[type="number"],
+  .modal-edit-product textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal-edit-product label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .modal-edit-product input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  .modal-edit-product button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-edit-product button.bg-blue-500 {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .modal-edit-product button.bg-red-500 {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .modal-edit-product button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
